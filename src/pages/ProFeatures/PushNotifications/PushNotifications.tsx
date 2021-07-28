@@ -104,7 +104,7 @@ class PushNotificationsContainer extends Component {
                                 <IonCard>
                                     <IonCardContent>
                                         2. Once registered, you can send push from the Firebase console. <br />
-                                        <a href="https://enappd.gitbook.io/ionic-5-react-capacitor-full-app/features/push-notifications" target="_blank">Check documentation</a>
+                                        <a href="https://enappd.gitbook.io/ionic-5-react-capacitor-full-app/features/push-notifications" target="_blank" rel="noreferrer">Check documentation</a>
                                     </IonCardContent>
                                 </IonCard>
                                 <IonCard>
