@@ -1,0 +1,273 @@
+/*
+* Ionic React Capacitor Full App (https://store.enappd.com/product/ionic-react-full-app-capacitor/)
+*
+* Copyright © 2019-present Enappd. All rights reserved.
+*
+* This source code is licensed as per the terms found in the
+* LICENSE.md file in the root directory of this source tree.
+*/
+.netflixContent {
+  --background: black;
+}
+
+.header-md:after {
+  bottom: 0px;
+}
+
+.flexNetflix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  padding-top: 16px;
+}
+
+.labelHeads p {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.labelHeads h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.labelHeads h4 {
+  color: white;
+  font-weight: bold;
+  padding: 0px 32px 16px 32px;
+  font-size: 22px;
+}
+
+.itemFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.thumbStyle {
+  width: 250px;
+  height: 250px;
+  background-size: cover !important;
+  background-position: center !important;
+  margin-bottom: 16px;
+  border-radius: 5px;
+}
+
+.ionHeaderStyle {
+  font-weight: bold;
+  display: flex;
+  background: #000000;
+  color: white;
+  /* // flex-direction: column; */
+}
+
+.headerText {
+  font-size: 17px;
+  padding-top: 23px;
+  padding-bottom: 12px;
+}
+
+.scrollDiv {
+  white-space: nowrap;
+  /* height: 290px; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+/* // flex-wrap: nowrap; */
+
+.thumbStyle1_ORIGINALS {
+  width: 135px;
+  height: 225px;
+  background-size: cover !important;
+  background-position: center !important;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.thumbStyle1_ORIGINALS ion-img {
+  border-radius: 3px;
+}
+
+.avatarStyle1 {
+  width: 100px;
+  height: 100px;
+  background-size: cover !important;
+  background-position: center !important;
+  margin: 10px 6px 10px;
+  /* // border-radius: 4px; */
+}
+
+.cards {
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardsScrollable {
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6px;
+}
+
+.cards_ORIGINALS {
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6px;
+}
+
+/* p {
+   color: var(--ion-color-medium-tint);
+ } */
+
+.dark-bg {
+  background: black;
+}
+
+.thumbStyle1 {
+  width: 90px;
+  height: 140px;
+  background-size: cover !important;
+  background-position: center !important;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #888;
+}
+
+.thumbStyle1 ion-img {
+  border-radius: 3px;
+}
+
+.marginL {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.marginR {
+  margin-right: 12px;
+}
+
+.ionlistNetflix {
+  background: linear-gradient(0deg, #000000, #000000, #000000, #0a0616e3);
+}
+
+.paraTitle {
+  padding: 0px 32px 0px 32px;
+  color: var(--ion-color-light-shade);
+}
+
+.because {
+  padding: 0;
+  margin: 48px 0px 0px 0px;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+/* .nameNetflix {
+   font-size: 18px;
+   font-weight: bold;
+   color: white;
+   letter-spacing: 0.5px;
+   font-family: sans-serif;
+   margin: 8px 8px 18px 8px;
+ } */
+
+.cardTop {
+  height: 60%;
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.cardFooter {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  background: linear-gradient(to bottom, #00416a00, #2126126b, #090513);
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.netflixIonLabel {
+  text-align: center !important;
+  justify-content: center !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+
+.cardFooter ion-icon {
+  font-size: 18px;
+  color: white;
+}
+
+.cardFooter p {
+  font-size: 10px;
+  color: white !important;
+}
+
+.ionsegmentNetflix {
+  width: 60%;
+  --background: transparent;
+  --background-hover: rgba(var(--ion-color-primary-rgb, 56, 128, 255), 0.1);
+  --background-activated: rgba(var(--ion-color-primary-rgb, 56, 128, 255), 0.16);
+  --background-checked: #ffffff00;
+  --color: var(--ion-color-dark-contrast);
+  --color-checked: var(--ion-color-primary-contrast, #fff);
+  --color-disabled: rgba(var(--ion-color-primary-rgb, 56, 128, 255), 0.3);
+  --color-checked-disabled: rgba(var(--ion-color-primary-contrast-rgb, 255, 255, 255), 0.3);
+  --border-color: #3880ff00;
+  --indicator-color: transparent;
+  margin: auto;
+}
+
+.ionsegmentbuttonNetflix {
+  font-size: 12px !important;
+}
+
+.cardsVideo {
+  margin: 0;
+  width: 100%;
+  border-radius: 0;
+  background: black;
+}
+
+.videoPlayer {
+  width: 100%;
+}
+
+.videoButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoButtons ion-button {
+  width: 50%;
+}

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">IonReactFullApp</string>
+    <string name="title_activity_main">IonReactFullApp</string>
+    <string name="package_name">com.enappd.ionreactfullapp</string>
+    <string name="custom_url_scheme">com.enappd.ionreactfullapp</string>
+    <string name="facebook_app_id">408937656335090</string>
+    <string name="fb_login_protocol_scheme">fb408937656335090</string>
+</resources>

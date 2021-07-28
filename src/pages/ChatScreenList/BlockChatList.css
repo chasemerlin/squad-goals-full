@@ -1,0 +1,414 @@
+/*
+* Ionic React Capacitor Full App (https://store.enappd.com/product/ionic-react-full-app-capacitor/)
+*
+* Copyright © 2019-present Enappd. All rights reserved.
+*
+* This source code is licensed as per the terms found in the
+* LICENSE.md file in the root directory of this source tree.
+*/
+.ionContentblockList {
+    background: #e8ebf3;
+    --background: #e8ebf3;
+}
+
+.ionItemOptionSection {
+    background: #e8ebf3;
+    --background: #e8ebf3;
+    max-height: calc(100% - 24px);
+}
+.listSectionBlockList {
+    background: transparent;
+    --background: transparent;
+    padding-bottom: 40px;
+}
+
+.ionItemOptionSection .time-center {
+    max-height: 100%;
+}
+.footerToolbarBlockListSection {
+    background: transparent !important;
+    --background: transparent !important;
+    --border-width: 0 !important;
+}
+.labelBlockList {
+    height: auto !important;
+    --height: auto !important;
+}
+
+.full-content {
+    height: 100%;
+    width: 100%;
+    padding: 0 5px 0 5px;
+    overflow: scroll;
+}
+
+.timer-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.timer-Left {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.timer-rightP {
+    font-size: 11px;
+    margin: 0 0 0 8px;
+    color: #808080a8;
+    margin-top: 0;
+}
+
+.timer-LeftP {
+    font-size: 11px;
+    margin: 0 4px 0 0;
+    color: #808080a8;
+}
+.footerSectionBlockList {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+}
+.noPaddingSection {
+    padding: 0 !important;
+}
+.mapSection {
+    width: 100%;
+    height: 250px;
+}
+.mapChatDiv {
+    width: 360px;
+    height: 250px;
+}
+
+.ionfabButtonBlockListSection {
+    background: transparent !important;
+    --background-activated: transparent !important;
+}
+
+.headerSectionsblockList {
+    background: #5b2573;
+}
+.loaderSection {
+    position: absolute;
+    bottom: 0px;
+}
+/* .loaderRowSection{
+    position: relative;
+} */
+
+.d4blue {
+    border-bottom: 2px solid #00c8be;
+    background: #37a9d8;
+}
+
+.chat-item {
+    background: transparent;
+    --background: transparent;
+    --inner-border-width: 0;
+    border-width: 0;
+}
+
+.chat-item-user {
+    --padding-start: 0;
+    padding-left: 0;
+    --inner-padding-end: 0;
+}
+
+.chat-item-user.image-item .chatColSection {
+    padding-right: 0;
+}
+
+.chat-item-user.map-item {
+    --background: transparent;
+}
+
+.chat-item-user .chatDiv,
+.chat-item-sender .chatDiv {
+    max-width: 100vw;
+    background: no-repeat;
+}
+
+.chat-item-user .chatDiv::after,
+.chat-item-sender .chatDiv::after {
+    content: "";
+    width: 0;
+    height: 0;
+    background: transparent;
+    border-bottom: 10px solid #e8ebf3;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    right: 0;
+    border-right: 10px solid #e8ebf3;
+    border-left: 10px solid transparent;
+    border-top: 10px solid transparent;
+}
+
+.chat-item {
+    --padding-start: 0;
+    --inner-padding-end: 0;
+}
+
+.chat-item-sender {
+    --background: transparent !important;
+    --padding-start: 0;
+    --inner-padding-end: 0;
+}
+
+.imageAvatarRight {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.imageAvatarRight .imageChatDiv {
+    text-align: justify;
+    position: relative;
+    max-width: 72vw;
+    border: 2px solid #ccc;
+    color: #444;
+    text-align: left;
+    white-space: normal !important;
+}
+
+.imageAvatarRight .imageChatDiv p {
+    font-size: 16px;
+    text-align: left;
+    padding: 14px;
+    color: #444 !important;
+}
+
+.imageAvatarLeft {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.imageAvatarLeft .leftChatDiv {
+    text-align: left;
+    position: relative;
+    max-width: 72vw;
+    background: #56a9d5;
+    color: white;
+    font-weight: 500;
+    white-space: normal !important;
+}
+
+.imageAvatarLeft .leftChatDiv p {
+    font-size: 16px;
+    padding: 14px;
+    color: #fff !important;
+}
+
+.ionFabButtonSection {
+    width: 47px !important;
+    height: 47px !important;
+    background: transparent !important;
+}
+.ColleftBlockSection {
+    text-align: right;
+}
+
+.IonFabSection {
+    bottom: -54px !important;
+}
+
+.footerIcon {
+    color: #666;
+}
+
+.chatDivLoader {
+    position: relative;
+    background: #fff;
+    border-radius: 16px;
+    min-width: 80px;
+    max-width: 80px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.ionTextBlockList {
+    font-size: 12px;
+    color: #56a8d5;
+    padding: 4px 8px;
+    height: 24px;
+    border-radius: 12px;
+    line-height: 16px;
+    border: 1px solid #56a8d5;
+}
+
+.colSectionBlockList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.loading-col {
+    justify-content: flex-start;
+    padding-left: 10px;
+    align-items: flex-end;
+}
+
+.right {
+    justify-content: flex-start;
+    padding-left: 10px !important;
+}
+
+.left {
+    justify-content: flex-end;
+    padding-right: 10px !important;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.input-box {
+    color: #444;
+    --padding-start: 50px !important;
+    --placeholder-color: #aaa;
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    color: #aaa;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer */
+    color: #aaa;
+}
+
+::placeholder {
+    color: #aaa;
+}
+
+.fabCamera_button {
+    --background: #37a9d800 !important;
+    background: #37a9d800 !important;
+    --box-shadow: none;
+    --background-activated: #37a9d800 !important;
+    --color: var(--ion-color-medium);
+}
+
+.header-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-image: url("../../assets/chat/chat/chat3.jpg");
+    background-position: center;
+    background-size: cover;
+    border: 2px solid #eee;
+}
+
+.header-meta {
+    padding-right: 10px;
+}
+
+.header-mood {
+    font-size: 14px;
+    color: #fff;
+}
+
+.header-name {
+    font-size: 26px;
+    color: #fff;
+}
+
+.left-time {
+    padding-right: 20px;
+    justify-content: flex-end;
+    padding-bottom: 0;
+}
+
+.right-time {
+    padding-left: 20px;
+    justify-content: flex-start;
+    padding-bottom: 0;
+}
+
+.user-info {
+    padding-right: 12px;
+}
+
+.chat-row {
+    width: 100%;
+}
+
+.mb-100 {
+    margin-bottom: 60px;
+}
+
+.thin-gap {
+    margin-top: 5px;
+}
+
+.timer-right-condition {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.timer-right-conditionP {
+    font-size: 11px;
+    margin-right: 8px;
+    color: #808080a8;
+    margin-top: 0;
+}
+
+.chatDivVideo {
+    max-width: 100vw;
+    background: no-repeat;
+}
+
+.chatDivMap {
+    width: 100vw;
+    height: 200px;
+    max-width: 100vw;
+}
+
+.chat-item-user-video {
+    --background: transparent !important;
+    --padding-start: 0;
+    --inner-padding-end: 0;
+    padding-left: 0;
+}
+
+.chat-item-user-video.image-item .Coluser-videoSection {
+    padding-right: 0;
+}
+
+.chat-item-user-video.image-item .user-videosection {
+    max-width: 100vw;
+    background: black;
+}
+
+.chat-item-user-video.image-item .user-videosection:after {
+    content: "";
+    width: 0;
+    height: 0;
+    background: transparent;
+    border-bottom: 10px solid #e8ebf3;
+    position: absolute;
+    bottom: -1px;
+    z-index: 10;
+    right: 0;
+    border-right: 11px solid #e8ebf3;
+    border-left: 11px solid transparent;
+    border-top: 10px solid transparent;
+}

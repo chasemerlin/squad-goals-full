@@ -1,0 +1,7 @@
+{
+  "name": "ION5R-FULL-CPTR-FB",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

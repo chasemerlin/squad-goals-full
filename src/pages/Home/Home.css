@@ -1,0 +1,76 @@
+/*
+* Ionic React Capacitor Full App (https://store.enappd.com/product/ionic-react-full-app-capacitor/)
+*
+* Copyright © 2019-present Enappd. All rights reserved.
+*
+* This source code is licensed as per the terms found in the
+* LICENSE.md file in the root directory of this source tree.
+*/
+
+.btn-light {
+    background: #ffca28;
+    color: black;
+}
+
+.label {
+    height: auto;
+}
+
+.spinner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.align {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.required {
+    color: red;
+    font-size: 10px;
+}
+
+ion-header ion-select {
+    color: White;
+}
+
+.input-css {
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 9px;
+    font-size: 0.9em !important;
+    margin-top: 10px;
+    padding-left: 10px !important;
+}
+
+ion-item {
+    --border-color: white;
+    --highlight-color-focused: #ffffff;
+}
+
+.cardHome {
+    width: 100%;
+}
+
+.edit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-transition-home {
+    --background: linear-gradient(to right, #f57c00 14%, #ffca00 96%);
+}
+
+ion-icon.iconStyle {
+    padding-left: 10px !important;
+    padding-right: 10px;
+}
+
+.ToolbarHome {
+    --background: orange !important;
+}

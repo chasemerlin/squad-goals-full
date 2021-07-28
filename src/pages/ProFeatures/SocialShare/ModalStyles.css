@@ -1,0 +1,42 @@
+/*
+* Ionic React Capacitor Full App (https://store.enappd.com/product/ionic-react-full-app-capacitor/)
+*
+* Copyright © 2019-present Enappd. All rights reserved.
+*
+* This source code is licensed as per the terms found in the
+* LICENSE.md file in the root directory of this source tree.
+*/
+.parentSection {
+    display: flex;
+    align-items: center;
+}
+
+.whtsIcon {
+    font-size: 59px;
+    margin: 10px;
+}
+
+.btnTitleWhatsapp {
+    font-size: 19px;
+}
+.medumText {
+    font-size: 18px;
+    color: #999;
+}
+.whtsShare {
+    /* width: 95%; */
+}
+.socialPage ion-item {
+    --background: transparent;
+}
+.socialPage ion-input,
+.socialPage ion-textarea {
+    background: white !important;
+}
+.social-icon {
+    display: flex;
+    justify-content: center;
+}
+.social-icon ion-img {
+    width: 60px;
+}
